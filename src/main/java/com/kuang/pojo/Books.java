@@ -12,4 +12,12 @@ public class Books {
     private String bookName;
     private int bookCounts;
     private String detail;
+
+    public int getBookID() {
+        return bookID;
+    }
+
+    public void setBookID(int bookID) {
+        this.bookID = bookID;
+    }
 }
